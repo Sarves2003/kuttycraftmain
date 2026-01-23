@@ -1,0 +1,449 @@
+/* Note: This file contains the NEW additions only. 
+   You need to APPEND this to your existing style.css from the document.
+   
+   OR you can manually merge by:
+   1. Keep all your existing CSS
+   2. Add everything below at the end
+*/
+
+/* ===============================================
+   CAROUSEL STYLES
+   Beautiful image carousel in product modal
+================================================ */
+.modal-carousel {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    background: var(--color-bg);
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    width: 48px;
+    height: 48px;
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    box-shadow: var(--shadow-md);
+    z-index: 10;
+    color: var(--color-primary);
+}
+
+.carousel-btn:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.prev-btn {
+    left: var(--spacing-md);
+}
+
+.next-btn {
+    right: var(--spacing-md);
+}
+
+.carousel-dots {
+    position: absolute;
+    bottom: var(--spacing-md);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: var(--spacing-xs);
+    z-index: 10;
+}
+
+.carousel-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: var(--radius-full);
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: var(--transition);
+    border: 2px solid transparent;
+}
+
+.carousel-dot:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.carousel-dot.active {
+    background: var(--color-white);
+    border-color: var(--color-primary);
+    width: 12px;
+    height: 12px;
+}
+
+/* ===============================================
+   ENHANCED SUCCESS PAGE
+   Beautiful success page with animations
+================================================ */
+.success-page {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(135deg, #ffefd5 0%, #ffe4e1 100%);
+    z-index: 4000;
+    overflow-y: auto;
+    padding: var(--spacing-lg);
+}
+
+.success-page.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success-content {
+    text-align: center;
+    max-width: 650px;
+    width: 100%;
+    background: var(--color-white);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    animation: successSlideUp 0.6s ease-out;
+    max-height: calc(100vh - 2 * var(--spacing-lg));
+    overflow-y: auto;
+}
+
+/* Success Icon Animation */
+.success-icon-wrapper {
+    margin-bottom: var(--spacing-lg);
+    display: flex;
+    justify-content: center;
+}
+
+.success-checkmark {
+    animation: successBounce 0.8s ease-out;
+}
+
+.success-circle {
+    stroke-dasharray: 283;
+    stroke-dashoffset: 283;
+    animation: successCircle 0.6s ease-out forwards;
+}
+
+.success-check {
+    stroke-dasharray: 60;
+    stroke-dashoffset: 60;
+    animation: successCheck 0.4s 0.6s ease-out forwards;
+}
+
+@keyframes successSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes successBounce {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes successCircle {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes successCheck {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+/* Success Content */
+.success-title {
+    font-family: var(--font-primary);
+    font-size: 2.5rem;
+    color: var(--color-primary-dark);
+    margin-bottom: var(--spacing-sm);
+    animation: fadeInUp 0.6s ease-out 0.4s backwards;
+}
+
+.success-subtitle {
+    font-size: 1.125rem;
+    color: var(--color-text-light);
+    margin-bottom: var(--spacing-xl);
+    line-height: 1.6;
+    animation: fadeInUp 0.6s ease-out 0.5s backwards;
+}
+
+/* Order Details Card */
+.success-details-card {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+    border: 2px solid var(--color-border);
+    animation: fadeInUp 0.6s ease-out 0.6s backwards;
+}
+
+.success-detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.success-detail-row:last-child {
+    border-bottom: none;
+}
+
+.success-detail-row.highlight {
+    padding-top: var(--spacing-md);
+    margin-top: var(--spacing-xs);
+    border-top: 2px solid var(--color-primary-light);
+}
+
+.detail-label {
+    font-weight: 600;
+    color: var(--color-text);
+    font-size: 0.95rem;
+}
+
+.detail-value {
+    font-family: var(--font-primary);
+    color: var(--color-text-light);
+    font-size: 0.95rem;
+}
+
+.total-value {
+    color: var(--color-primary-dark);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Items Purchased Section */
+.success-items-section {
+    margin-bottom: var(--spacing-lg);
+    animation: fadeInUp 0.6s ease-out 0.7s backwards;
+}
+
+.success-items-title {
+    font-family: var(--font-primary);
+    font-size: 1.25rem;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-md);
+    text-align: left;
+}
+
+.success-items-list {
+    background: var(--color-bg);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md);
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.success-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--color-border);
+    font-size: 0.95rem;
+}
+
+.success-item:last-child {
+    border-bottom: none;
+}
+
+.success-item-name {
+    flex: 1;
+    text-align: left;
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+.success-item-qty {
+    color: var(--color-text-light);
+    margin: 0 var(--spacing-md);
+    font-size: 0.875rem;
+}
+
+.success-item-price {
+    color: var(--color-primary-dark);
+    font-weight: 600;
+    font-family: var(--font-primary);
+}
+
+/* Action Buttons */
+.success-actions {
+    margin-bottom: var(--spacing-lg);
+    animation: fadeInUp 0.6s ease-out 0.8s backwards;
+}
+
+.back-home-btn {
+    /* display: inline-flex; */
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md) var(--spacing-xl);
+    background: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: var(--radius-md);
+    font-family: var(--font-primary);
+    font-size: 1.125rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: var(--shadow-md);
+}
+
+.back-home-btn:hover {
+    background: var(--color-primary-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Next Steps Info */
+.success-next-steps {
+    background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-lg);
+    border-left: 4px solid var(--color-success);
+    animation: fadeInUp 0.6s ease-out 0.9s backwards;
+}
+
+.next-steps-title {
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.125rem;
+}
+
+.next-steps-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.next-steps-list li {
+    padding: var(--spacing-xs) 0;
+    color: var(--color-text-light);
+    font-size: 0.95rem;
+    position: relative;
+    padding-left: var(--spacing-lg);
+}
+
+.next-steps-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--color-success);
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+/* Responsive Adjustments for Success Page */
+@media (max-width: 768px) {
+    .success-title {
+        font-size: 2rem;
+    }
+    
+    .success-content {
+        padding: var(--spacing-lg);
+    }
+    
+    .success-detail-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+    }
+    
+    .success-item {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-height: 600px) {
+    .success-page.active {
+        align-items: flex-start;
+    }
+
+    .success-content {
+        margin-top: var(--spacing-lg);
+        margin-bottom: var(--spacing-lg);
+        animation: none;
+    }
+}
+
+/* ===============================================
+   RESPONSIVE CAROUSEL
+================================================ */
+@media (max-width: 768px) {
+    .modal-carousel {
+        height: 300px;
+    }
+    
+    .carousel-btn {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .prev-btn {
+        left: var(--spacing-sm);
+    }
+    
+    .next-btn {
+        right: var(--spacing-sm);
+    }
+}
+
+/* Modal adjustments for carousel */
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+@media (min-width: 768px) {
+    .modal-body {
+        flex-direction: row;
+    }
+    
+    .modal-carousel {
+        width: 50%;
+        height: 100%;
+        border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+    }
+    
+    .modal-details {
+        width: 50%;
+    }
+}
+
+/* Update existing modal-image class if it exists - REMOVE OR COMMENT OUT */
+/* The .modal-image class is now replaced by .modal-carousel */

@@ -12,7 +12,7 @@ const productsData = [
         title: "Crochet Baby Bunny", 
         category: "Crochet", 
         description: "Adorable handmade crochet bunny perfect for gifting. Made with soft, premium yarn in beautiful pastel colors.", 
-        price: 450, 
+        price: 1, 
         isBestSeller: true 
     },
     { 

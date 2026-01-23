@@ -13,6 +13,9 @@
       rel="stylesheet"
     />
 
+    <!-- For Email -->
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style-complete.css" />
@@ -697,8 +700,8 @@
         </div>
 
         <div class="form-group">
-          <label for="customerEmail">Email Address <span class="optional">(Optional)</span></label>
-          <input type="email" id="customerEmail" name="customerEmail" placeholder="your.email@example.com" />
+          <label for="customerEmail">Email Address</span></label>
+          <input type="email" id="customerEmail" name="customerEmail" placeholder="your.email@example.com" required/>
           <span class="form-error" id="emailError"></span>
         </div>
 

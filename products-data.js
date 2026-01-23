@@ -5,9 +5,9 @@ const productsData = [
     // Crochet Products (5 items)
     { 
         images: [
-            "../asset/images/IMG_3472.JPG.jpeg",
-            "../asset/images/IMG_3473.JPG.jpeg",
-            "../asset/images/IMG_3627.JPG.jpeg"
+            "./asset/images/IMG_3472.JPG.jpeg",
+            "./asset/images/IMG_3473.JPG.jpeg",
+            "./asset/images/IMG_3627.JPG.jpeg"
         ], 
         title: "Crochet Baby Bunny", 
         category: "Crochet", 
@@ -17,9 +17,9 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3473.JPG.jpeg",
-            "../asset/images/IMG_3627.JPG.jpeg",
-            "../asset/images/IMG_3472.JPG.jpeg"
+            "./asset/images/IMG_3473.JPG.jpeg",
+            "./asset/images/IMG_3627.JPG.jpeg",
+            "./asset/images/IMG_3472.JPG.jpeg"
         ], 
         title: "Crochet Bear Toy", 
         category: "Crochet", 
@@ -29,9 +29,9 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3627.JPG.jpeg",
-            "../asset/images/IMG_3472.JPG.jpeg",
-            "../asset/images/IMG_3473.JPG.jpeg"
+            "./asset/images/IMG_3627.JPG.jpeg",
+            "./asset/images/IMG_3472.JPG.jpeg",
+            "./asset/images/IMG_3473.JPG.jpeg"
         ], 
         title: "Crochet Octopus", 
         category: "Crochet", 
@@ -41,8 +41,8 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3472.JPG.jpeg",
-            "../asset/images/IMG_3473.JPG.jpeg"
+            "./asset/images/IMG_3472.JPG.jpeg",
+            "./asset/images/IMG_3473.JPG.jpeg"
         ], 
         title: "Crochet Elephant", 
         category: "Crochet", 
@@ -52,8 +52,8 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3473.JPG.jpeg",
-            "../asset/images/IMG_3627.JPG.jpeg"
+            "./asset/images/IMG_3473.JPG.jpeg",
+            "./asset/images/IMG_3627.JPG.jpeg"
         ], 
         title: "Crochet Unicorn", 
         category: "Crochet", 
@@ -65,9 +65,9 @@ const productsData = [
     // Paintings (5 items)
     { 
         images: [
-            "../asset/images/IMG_3472.JPG.jpeg",
-            "../asset/images/IMG_3473.JPG.jpeg",
-            "../asset/images/IMG_3627.JPG.jpeg"
+            "./asset/images/IMG_3472.JPG.jpeg",
+            "./asset/images/IMG_3473.JPG.jpeg",
+            "./asset/images/IMG_3627.JPG.jpeg"
         ], 
         title: "Abstract Sunset", 
         category: "Paintings", 
@@ -77,8 +77,8 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3473.JPG.jpeg",
-            "../asset/images/IMG_3627.JPG.jpeg"
+            "./asset/images/IMG_3473.JPG.jpeg",
+            "./asset/images/IMG_3627.JPG.jpeg"
         ], 
         title: "Mountain Landscape", 
         category: "Paintings", 
@@ -88,9 +88,9 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3627.JPG.jpeg",
-            "../asset/images/IMG_3472.JPG.jpeg",
-            "../asset/images/IMG_3473.JPG.jpeg"
+            "./asset/images/IMG_3627.JPG.jpeg",
+            "./asset/images/IMG_3472.JPG.jpeg",
+            "./asset/images/IMG_3473.JPG.jpeg"
         ], 
         title: "Floral Bouquet", 
         category: "Paintings", 
@@ -100,8 +100,8 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3472.JPG.jpeg",
-            "../asset/images/IMG_3473.JPG.jpeg"
+            "./asset/images/IMG_3472.JPG.jpeg",
+            "./asset/images/IMG_3473.JPG.jpeg"
         ], 
         title: "Ocean Waves", 
         category: "Paintings", 
@@ -111,8 +111,8 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3473.JPG.jpeg",
-            "../asset/images/IMG_3627.JPG.jpeg"
+            "./asset/images/IMG_3473.JPG.jpeg",
+            "./asset/images/IMG_3627.JPG.jpeg"
         ], 
         title: "Starry Night", 
         category: "Paintings", 
@@ -124,9 +124,9 @@ const productsData = [
     // Makeup Pouches (5 items)
     { 
         images: [
-            "../asset/images/IMG_3472.JPG.jpeg",
-            "../asset/images/IMG_3473.JPG.jpeg",
-            "../asset/images/IMG_3627.JPG.jpeg"
+            "./asset/images/IMG_3472.JPG.jpeg",
+            "./asset/images/IMG_3473.JPG.jpeg",
+            "./asset/images/IMG_3627.JPG.jpeg"
         ], 
         title: "Floral Makeup Pouch", 
         category: "Makeup Pouch", 
@@ -136,8 +136,8 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3473.JPG.jpeg",
-            "../asset/images/IMG_3627.JPG.jpeg"
+            "./asset/images/IMG_3473.JPG.jpeg",
+            "./asset/images/IMG_3627.JPG.jpeg"
         ], 
         title: "Polka Dot Pouch", 
         category: "Makeup Pouch", 
@@ -147,8 +147,8 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3627.JPG.jpeg",
-            "../asset/images/IMG_3472.JPG.jpeg"
+            "./asset/images/IMG_3627.JPG.jpeg",
+            "./asset/images/IMG_3472.JPG.jpeg"
         ], 
         title: "Velvet Makeup Bag", 
         category: "Makeup Pouch", 
@@ -158,8 +158,8 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3472.JPG.jpeg",
-            "../asset/images/IMG_3473.JPG.jpeg"
+            "./asset/images/IMG_3472.JPG.jpeg",
+            "./asset/images/IMG_3473.JPG.jpeg"
         ], 
         title: "Canvas Pouch", 
         category: "Makeup Pouch", 
@@ -169,9 +169,9 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3473.JPG.jpeg",
-            "../asset/images/IMG_3627.JPG.jpeg",
-            "../asset/images/IMG_3472.JPG.jpeg"
+            "./asset/images/IMG_3473.JPG.jpeg",
+            "./asset/images/IMG_3627.JPG.jpeg",
+            "./asset/images/IMG_3472.JPG.jpeg"
         ], 
         title: "Embroidered Bag", 
         category: "Makeup Pouch", 
@@ -183,9 +183,9 @@ const productsData = [
     // Clocks (5 items)
     { 
         images: [
-            "../asset/images/IMG_3472.JPG.jpeg",
-            "../asset/images/IMG_3473.JPG.jpeg",
-            "../asset/images/IMG_3627.JPG.jpeg"
+            "./asset/images/IMG_3472.JPG.jpeg",
+            "./asset/images/IMG_3473.JPG.jpeg",
+            "./asset/images/IMG_3627.JPG.jpeg"
         ], 
         title: "Wooden Wall Clock", 
         category: "Clock", 
@@ -195,8 +195,8 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3473.JPG.jpeg",
-            "../asset/images/IMG_3627.JPG.jpeg"
+            "./asset/images/IMG_3473.JPG.jpeg",
+            "./asset/images/IMG_3627.JPG.jpeg"
         ], 
         title: "Modern Minimalist Clock", 
         category: "Clock", 
@@ -206,8 +206,8 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3627.JPG.jpeg",
-            "../asset/images/IMG_3472.JPG.jpeg"
+            "./asset/images/IMG_3627.JPG.jpeg",
+            "./asset/images/IMG_3472.JPG.jpeg"
         ], 
         title: "Vintage Clock", 
         category: "Clock", 
@@ -217,8 +217,8 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3472.JPG.jpeg",
-            "../asset/images/IMG_3473.JPG.jpeg"
+            "./asset/images/IMG_3472.JPG.jpeg",
+            "./asset/images/IMG_3473.JPG.jpeg"
         ], 
         title: "Floral Clock", 
         category: "Clock", 
@@ -228,9 +228,9 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3473.JPG.jpeg",
-            "../asset/images/IMG_3627.JPG.jpeg",
-            "../asset/images/IMG_3472.JPG.jpeg"
+            "./asset/images/IMG_3473.JPG.jpeg",
+            "./asset/images/IMG_3627.JPG.jpeg",
+            "./asset/images/IMG_3472.JPG.jpeg"
         ], 
         title: "Marble Clock", 
         category: "Clock", 
@@ -242,9 +242,9 @@ const productsData = [
     // Crafts (5 items)
     { 
         images: [
-            "../asset/images/IMG_3472.JPG.jpeg",
-            "../asset/images/IMG_3473.JPG.jpeg",
-            "../asset/images/IMG_3627.JPG.jpeg"
+            "./asset/images/IMG_3472.JPG.jpeg",
+            "./asset/images/IMG_3473.JPG.jpeg",
+            "./asset/images/IMG_3627.JPG.jpeg"
         ], 
         title: "Handmade Candles", 
         category: "Crafts", 
@@ -254,8 +254,8 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3473.JPG.jpeg",
-            "../asset/images/IMG_3627.JPG.jpeg"
+            "./asset/images/IMG_3473.JPG.jpeg",
+            "./asset/images/IMG_3627.JPG.jpeg"
         ], 
         title: "Macrame Wall Hanging", 
         category: "Crafts", 
@@ -265,8 +265,8 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3627.JPG.jpeg",
-            "../asset/images/IMG_3472.JPG.jpeg"
+            "./asset/images/IMG_3627.JPG.jpeg",
+            "./asset/images/IMG_3472.JPG.jpeg"
         ], 
         title: "Dreamcatcher", 
         category: "Crafts", 
@@ -276,8 +276,8 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3472.JPG.jpeg",
-            "../asset/images/IMG_3473.JPG.jpeg"
+            "./asset/images/IMG_3472.JPG.jpeg",
+            "./asset/images/IMG_3473.JPG.jpeg"
         ], 
         title: "Wooden Coasters", 
         category: "Crafts", 
@@ -287,9 +287,9 @@ const productsData = [
     },
     { 
         images: [
-            "../asset/images/IMG_3473.JPG.jpeg",
-            "../asset/images/IMG_3627.JPG.jpeg",
-            "../asset/images/IMG_3472.JPG.jpeg"
+            "./asset/images/IMG_3473.JPG.jpeg",
+            "./asset/images/IMG_3627.JPG.jpeg",
+            "./asset/images/IMG_3472.JPG.jpeg"
         ], 
         title: "Clay Pots", 
         category: "Crafts", 

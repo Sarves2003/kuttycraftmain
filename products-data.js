@@ -2,299 +2,307 @@
 // Product data for Kutty Craft - Keep this file separate for easy management
 
 const productsData = [
-    // Crochet Products (5 items)
-    { 
+
+    // Crochet
+    {
         images: [
-            "./asset/images/IMG_3472.JPG.jpeg",
-            "./asset/images/IMG_3473.JPG.jpeg",
-            "./asset/images/IMG_3627.JPG.jpeg"
-        ], 
-        title: "Crochet Baby Bunny", 
-        category: "Crochet", 
-        description: "Adorable handmade crochet bunny perfect for gifting. Made with soft, premium yarn in beautiful pastel colors.", 
-        price: 1, 
-        isBestSeller: true 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3473.JPG.jpeg",
-            "./asset/images/IMG_3627.JPG.jpeg",
-            "./asset/images/IMG_3472.JPG.jpeg"
-        ], 
-        title: "Crochet Bear Toy", 
-        category: "Crochet", 
-        description: "Soft and cuddly crochet bear made with love. Perfect companion for kids and collectors alike.", 
-        price: 520, 
-        isBestSeller: false 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3627.JPG.jpeg",
-            "./asset/images/IMG_3472.JPG.jpeg",
-            "./asset/images/IMG_3473.JPG.jpeg"
-        ], 
-        title: "Crochet Octopus", 
-        category: "Crochet", 
-        description: "Colorful crochet octopus with 8 cute tentacles. A unique handmade creation that brings smiles.", 
-        price: 380, 
-        isBestSeller: true 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3472.JPG.jpeg",
-            "./asset/images/IMG_3473.JPG.jpeg"
-        ], 
-        title: "Crochet Elephant", 
-        category: "Crochet", 
-        description: "Large crochet elephant with trunk and tusks. Handcrafted with attention to detail.", 
-        price: 650, 
-        isBestSeller: false 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3473.JPG.jpeg",
-            "./asset/images/IMG_3627.JPG.jpeg"
-        ], 
-        title: "Crochet Unicorn", 
-        category: "Crochet", 
-        description: "Magical crochet unicorn with horn and colorful mane.", 
-        price: 620, 
-        isBestSeller: true 
-    },
-    
-    // Paintings (5 items)
-    { 
-        images: [
-            "./asset/images/IMG_3472.JPG.jpeg",
-            "./asset/images/IMG_3473.JPG.jpeg",
-            "./asset/images/IMG_3627.JPG.jpeg"
-        ], 
-        title: "Abstract Sunset", 
-        category: "Paintings", 
-        description: "Beautiful abstract sunset painting with warm colors and dreamy atmosphere.", 
-        price: 1200, 
-        isBestSeller: true 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3473.JPG.jpeg",
-            "./asset/images/IMG_3627.JPG.jpeg"
-        ], 
-        title: "Mountain Landscape", 
-        category: "Paintings", 
-        description: "Serene mountain landscape in watercolor. Perfect for living room decor.", 
-        price: 1500, 
-        isBestSeller: false 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3627.JPG.jpeg",
-            "./asset/images/IMG_3472.JPG.jpeg",
-            "./asset/images/IMG_3473.JPG.jpeg"
-        ], 
-        title: "Floral Bouquet", 
-        category: "Paintings", 
-        description: "Vibrant floral bouquet painting with rich colors and fine details.", 
-        price: 900, 
-        isBestSeller: true 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3472.JPG.jpeg",
-            "./asset/images/IMG_3473.JPG.jpeg"
-        ], 
-        title: "Ocean Waves", 
-        category: "Paintings", 
-        description: "Dynamic ocean waves in acrylic. Brings the sea to your home.", 
-        price: 1100, 
-        isBestSeller: false 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3473.JPG.jpeg",
-            "./asset/images/IMG_3627.JPG.jpeg"
-        ], 
-        title: "Starry Night", 
-        category: "Paintings", 
-        description: "Magical starry night sky inspired painting with deep blues.", 
-        price: 1400, 
-        isBestSeller: true 
+            "../asset/images/crochet/Sunflower pot 1.jpg",
+            "../asset/images/crochet/Sunflower pot 2.jpg"
+        ],
+        title: "Sunflowerpot",
+        category: "Crochet",
+        description: "Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 300,
+        isBestSeller: true
     },
 
-    // Makeup Pouches (5 items)
-    { 
+    {
         images: [
-            "./asset/images/IMG_3472.JPG.jpeg",
-            "./asset/images/IMG_3473.JPG.jpeg",
-            "./asset/images/IMG_3627.JPG.jpeg"
-        ], 
-        title: "Floral Makeup Pouch", 
-        category: "Makeup Pouch", 
-        description: "Handmade floral printed makeup pouch. Perfect for organizing cosmetics.", 
-        price: 280, 
-        isBestSeller: true 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3473.JPG.jpeg",
-            "./asset/images/IMG_3627.JPG.jpeg"
-        ], 
-        title: "Polka Dot Pouch", 
-        category: "Makeup Pouch", 
-        description: "Cute polka dot cosmetic pouch with zipper closure.", 
-        price: 250, 
-        isBestSeller: false 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3627.JPG.jpeg",
-            "./asset/images/IMG_3472.JPG.jpeg"
-        ], 
-        title: "Velvet Makeup Bag", 
-        category: "Makeup Pouch", 
-        description: "Luxury velvet makeup organizer. Soft and spacious.", 
-        price: 350, 
-        isBestSeller: true 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3472.JPG.jpeg",
-            "./asset/images/IMG_3473.JPG.jpeg"
-        ], 
-        title: "Canvas Pouch", 
-        category: "Makeup Pouch", 
-        description: "Natural canvas utility pouch. Eco-friendly and durable.", 
-        price: 200, 
-        isBestSeller: false 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3473.JPG.jpeg",
-            "./asset/images/IMG_3627.JPG.jpeg",
-            "./asset/images/IMG_3472.JPG.jpeg"
-        ], 
-        title: "Embroidered Bag", 
-        category: "Makeup Pouch", 
-        description: "Hand-embroidered cosmetic bag with intricate designs.", 
-        price: 380, 
-        isBestSeller: true 
+            "../asset/images/crochet/Red rose pot 1.jpg",
+            "../asset/images/crochet/Red rose pot 2.jpg"
+        ],
+        title: "Red rose pot",
+        category: "Crochet",
+        description: "Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 300,
+        isBestSeller: true
     },
 
-    // Clocks (5 items)
-    { 
+    {
         images: [
-            "./asset/images/IMG_3472.JPG.jpeg",
-            "./asset/images/IMG_3473.JPG.jpeg",
-            "./asset/images/IMG_3627.JPG.jpeg"
-        ], 
-        title: "Wooden Wall Clock", 
-        category: "Clock", 
-        description: "Rustic wooden wall clock. Handcrafted from quality wood.", 
-        price: 1500, 
-        isBestSeller: true 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3473.JPG.jpeg",
-            "./asset/images/IMG_3627.JPG.jpeg"
-        ], 
-        title: "Modern Minimalist Clock", 
-        category: "Clock", 
-        description: "Sleek minimalist design clock. Perfect for modern homes.", 
-        price: 1200, 
-        isBestSeller: false 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3627.JPG.jpeg",
-            "./asset/images/IMG_3472.JPG.jpeg"
-        ], 
-        title: "Vintage Clock", 
-        category: "Clock", 
-        description: "Antique style vintage clock with roman numerals.", 
-        price: 1800, 
-        isBestSeller: true 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3472.JPG.jpeg",
-            "./asset/images/IMG_3473.JPG.jpeg"
-        ], 
-        title: "Floral Clock", 
-        category: "Clock", 
-        description: "Hand-painted floral clock. Adds charm to any room.", 
-        price: 1400, 
-        isBestSeller: false 
-    },
-    { 
-        images: [
-            "./asset/images/IMG_3473.JPG.jpeg",
-            "./asset/images/IMG_3627.JPG.jpeg",
-            "./asset/images/IMG_3472.JPG.jpeg"
-        ], 
-        title: "Marble Clock", 
-        category: "Clock", 
-        description: "Elegant marble face clock. Premium quality timepiece.", 
-        price: 2000, 
-        isBestSeller: true 
+            "../asset/images/crochet/Heart pot.jpg"
+        ],
+        title: "Heart pot",
+        category: "Crochet",
+        description: "Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 250,
+        isBestSeller: false
     },
 
-    // Crafts (5 items)
-    { 
+    {
         images: [
-            "./asset/images/IMG_3472.JPG.jpeg",
-            "./asset/images/IMG_3473.JPG.jpeg",
-            "./asset/images/IMG_3627.JPG.jpeg"
-        ], 
-        title: "Handmade Candles", 
-        category: "Crafts", 
-        description: "Aromatic handmade soy candles in various scents.", 
-        price: 350, 
-        isBestSeller: true 
+            "../asset/images/crochet/Baby duck keychain 1.jpg",
+            "../asset/images/crochet/Baby duck keychain 2.jpg"
+        ],
+        title: "Baby duck keychain",
+        category: "Crochet",
+        description: "Sweet and cute for bags and keys. Medium size, made with yarn. Long lasting. Colours may vary depending on phone display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 280,
+        isBestSeller: false
     },
-    { 
+
+    {
         images: [
-            "./asset/images/IMG_3473.JPG.jpeg",
-            "./asset/images/IMG_3627.JPG.jpeg"
-        ], 
-        title: "Macrame Wall Hanging", 
-        category: "Crafts", 
-        description: "Boho macrame wall decoration. Handwoven with care.", 
-        price: 800, 
-        isBestSeller: false 
+            "../asset/images/crochet/Evileye keychain 1.jpg",
+            "../asset/images/crochet/Evileye keychain 2.jpg",
+            "../asset/images/crochet/Evileye keychain 3.jpg"
+        ],
+        title: "Evil eye keychain",
+        category: "Crochet",
+        description: "Giving a positive vibe for your journey. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 90,
+        isBestSeller: true
     },
-    { 
+
+    {
         images: [
-            "./asset/images/IMG_3627.JPG.jpeg",
-            "./asset/images/IMG_3472.JPG.jpeg"
-        ], 
-        title: "Dreamcatcher", 
-        category: "Crafts", 
-        description: "Beautiful handcrafted dreamcatcher with feathers.", 
-        price: 450, 
-        isBestSeller: true 
+            "../asset/images/crochet/Bear keychain 1.jpg",
+            "../asset/images/crochet/Bear keychain 2.jpg"
+        ],
+        title: "Bear keychain",
+        category: "Crochet",
+        description: "Cute and unique for your dream vehicle. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 100,
+        isBestSeller: true
     },
-    { 
+
+    {
         images: [
-            "./asset/images/IMG_3472.JPG.jpeg",
-            "./asset/images/IMG_3473.JPG.jpeg"
-        ], 
-        title: "Wooden Coasters", 
-        category: "Crafts", 
-        description: "Set of 4 wooden coasters. Hand-carved and polished.", 
-        price: 400, 
-        isBestSeller: false 
+            "../asset/images/crochet/Bunny keychain with heart 1.jpg",
+            "../asset/images/crochet/Bunny keychain with heart 2.jpg",
+            "../asset/images/crochet/Bunny keychain with heart 3.jpg"
+        ],
+        title: "Bunny keychain with heart",
+        category: "Crochet",
+        description: "Perfect for Valentine and return gifts. Heart colour can be customized (pink, red, lavender). Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 380,
+        isBestSeller: false
     },
-    { 
+
+    {
         images: [
-            "./asset/images/IMG_3473.JPG.jpeg",
-            "./asset/images/IMG_3627.JPG.jpeg",
-            "./asset/images/IMG_3472.JPG.jpeg"
-        ], 
-        title: "Clay Pots", 
-        category: "Crafts", 
-        description: "Hand-painted clay plant pots. Set of 3 different sizes.", 
-        price: 280, 
-        isBestSeller: true 
+            "../asset/images/crochet/Red heart keychain 1.jpg",
+            "../asset/images/crochet/Red heart keychain 2.jpg"
+        ],
+        title: "Red heart keychain",
+        category: "Crochet",
+        description: "Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 90,
+        isBestSeller: true
     },
+
+    {
+        images: [
+            "../asset/images/crochet/Strawberry keychain 1.jpg",
+            "../asset/images/crochet/Strawberry keychain 2.jpg"
+        ],
+        title: "Strawberry keychain",
+        category: "Crochet",
+        description: "Made with yarn. Price mentioned is per piece. Long lasting. Leaf colour may vary depending on yarn availability. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 100,
+        isBestSeller: true
+    },
+
+    {
+        images: [
+            "../asset/images/crochet/Smiley daisy pot 1.jpg",
+            "../asset/images/crochet/Smiley daisy pot 2.jpeg"
+        ],
+        title: "Smiley daisy pot",
+        category: "Crochet",
+        description: "Doesn’t fade or wilt. Perfect for return gifts and decor. Medium size, made with yarn. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 399,
+        isBestSeller: true
+    },
+
+    {
+        images: [
+            "../asset/images/crochet/Sunflower claw clip 1(1).jpg",
+            "../asset/images/crochet/Sunflower claw clip 1.jpg"
+        ],
+        title: "Sunflower claw clip",
+        category: "Crochet",
+        description: "Doesn’t fade or wilt. Medium size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 150,
+        isBestSeller: true
+    },
+
+    {
+        images: [
+            "../asset/images/crochet/Sunflower scooty charm 1.jpg",
+            "../asset/images/crochet/Sunflower scooty charm 2.jpg"
+        ],
+        title: "Sunflower scooty charm",
+        category: "Crochet",
+        description: "Doesn’t fade or wilt. Medium size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 150,
+        isBestSeller: true
+    },
+
+    {
+        images: [
+            "../asset/images/crochet/Heart wings scooty charm .jpg"
+        ],
+        title: "Heart wings scooty charm",
+        category: "Crochet",
+        description: "Doesn’t fade or wilt. Medium size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 150,
+        isBestSeller: true
+    },
+
+    {
+        images: [
+            "../asset/images/crochet/Bible cover 1.jpg",
+            "../asset/images/crochet/Bible cover 2.jpg",
+            "../asset/images/crochet/Bible cover 3.jpg"
+        ],
+        title: "Bible cover",
+        category: "Crochet",
+        description: "Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 400,
+        isBestSeller: false
+    },
+
+    {
+        images: [
+            "../asset/images/crochet/Claw clip big 1.jpg",
+            "../asset/images/crochet/Claw clip big 2.jpg",
+            "../asset/images/crochet/Claw clip big 3.jpg"
+        ],
+        title: "Claw clip big",
+        category: "Crochet",
+        description: "Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 200,
+        isBestSeller: false
+    },
+
+    {
+        images: [
+            "../asset/images/lifestyles/Card holder 1.jpg",
+        ],
+        title: "Card holder",
+        category: "Lifestyles",
+        description: "Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 200,
+        isBestSeller: true
+    },
+
+    {
+        images: [
+            "../asset/images/paintings/Blue theme clock 1.jpeg",
+            "../asset/images/paintings/Blue theme clock 2.jpg"
+        ],
+        title: "Blue theme clock",
+        category: "Paintings",
+        description: "Dreamy and classy wall clock. Size 8 inch. For customization DM on WhatsApp or Instagram. Dispatching time 10–15 days (around India). International orders take 20–25 days for delivery.",
+        price: 1500,
+        isBestSeller: true
+    },
+
+    {
+        images: [
+            "../asset/images/lifestyles/Multicolour tote bag 1.jpg",
+            "../asset/images/lifestyles/Multicolour tote bag 2.jpg"
+        ],
+        title: "Multicolour tote bag",
+        category: "Lifestyles",
+        description: "Big size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        price: 2500,
+        isBestSeller: true
+    },
+
+    {
+        images: [
+            "../asset/images/baby softtoys/Baby duck with Santa hat .jpg"
+        ],
+        title: "Baby duck with santa hat (medium size)",
+        category: "Crochet",
+        description: "Medium size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        price: 350,
+        isBestSeller: false
+    },
+
+    {
+        images: [
+            "../asset/images/crochet/Honeybee medium 1.jpg",
+            "../asset/images/crochet/Honeybee medium 2.jpg"
+        ],
+        title: "Honeybee medium size",
+        category: "Crochet",
+        description: "Medium size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        price: 300,
+        isBestSeller: true
+    },
+
+    {
+        images: [
+            "../asset/images/crochet/Honeybee big 1.jpg",
+            "../asset/images/crochet/Honeybee big 2.jpg"
+        ],
+        title: "Honeybee big size",
+        category: "Crochet",
+        description: "Big size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        price: 500,
+        isBestSeller: true
+    },
+
+    {
+        images: [
+            "../asset/images/baby softtoys/Bunny hand pick 1.jpg",
+            "../asset/images/baby softtoys/Bunny hand pick 2.jpg"
+        ],
+        title: "Baby hand pick toys",
+        category: "Baby Softtoys",
+        description: "Safe and weightless toys for newborns. Assisting them in picking up toys during their early development. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        price: 250,
+        isBestSeller: true
+    },
+
+    {
+        images: [
+            "../asset/images/baby softtoys/Elephant hand pick 1.jpg",
+            "../asset/images/baby softtoys/Elephant hand pick 2.jpg"
+        ],
+        title: "Elephant hand pick toy",
+        category: "Baby Softtoys",
+        description: "Safe and weightless toys for newborns. Assisting them in picking up toys during their early development. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        price: 300,
+        isBestSeller: true
+    },
+
+    {
+        images: [
+            "../asset/images/baby softtoys/Bunny holding heart plushie.jpg"
+        ],
+        title: "Bunny holding heart plushie",
+        category: "Baby Softtoys",
+        description: "Safe and weightless toy for newborns. Heart colour can be customized (red, baby pink, lavender, yellow, sky blue). For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        price: 950,
+        isBestSeller: true
+    },
+
+    {
+        images: [
+            "../asset/images/baby softtoys/Panda 1.jpg",
+            "../asset/images/baby softtoys/Panda 2.jpg"
+        ],
+        title: "Panda",
+        category: "Baby Softtoys",
+        description: "Safe and weightless toy for newborns. Assisting early development. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        price: 800,
+        isBestSeller: true
+    }
+
 ];
+
+// export default productsData;

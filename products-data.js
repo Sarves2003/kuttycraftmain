@@ -6,8 +6,8 @@ const productsData = [
     // Crochet
     {
         images: [
-            "../asset/images/crochet/Sunflower pot 1.jpg",
-            "../asset/images/crochet/Sunflower pot 2.jpg"
+            "./asset/images/crochet/Sunflower pot 1.jpg",
+            "./asset/images/crochet/Sunflower pot 2.jpg"
         ],
         title: "Sunflowerpot",
         category: "Crochet",
@@ -18,8 +18,8 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Red rose pot 1.jpg",
-            "../asset/images/crochet/Red rose pot 2.jpg"
+            "./asset/images/crochet/Red rose pot 1.jpg",
+            "./asset/images/crochet/Red rose pot 2.jpg"
         ],
         title: "Red rose pot",
         category: "Crochet",
@@ -30,7 +30,7 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Heart pot.jpg"
+            "./asset/images/crochet/Heart pot.jpg"
         ],
         title: "Heart pot",
         category: "Crochet",
@@ -41,8 +41,8 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Baby duck keychain 1.jpg",
-            "../asset/images/crochet/Baby duck keychain 2.jpg"
+            "./asset/images/crochet/Baby duck keychain 1.jpg",
+            "./asset/images/crochet/Baby duck keychain 2.jpg"
         ],
         title: "Baby duck keychain",
         category: "Crochet",
@@ -53,9 +53,9 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Evileye keychain 1.jpg",
-            "../asset/images/crochet/Evileye keychain 2.jpg",
-            "../asset/images/crochet/Evileye keychain 3.jpg"
+            "./asset/images/crochet/Evileye keychain 1.jpg",
+            "./asset/images/crochet/Evileye keychain 2.jpg",
+            "./asset/images/crochet/Evileye keychain 3.jpg"
         ],
         title: "Evil eye keychain",
         category: "Crochet",
@@ -66,8 +66,8 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Bear keychain 1.jpg",
-            "../asset/images/crochet/Bear keychain 2.jpg"
+            "./asset/images/crochet/Bear keychain 1.jpg",
+            "./asset/images/crochet/Bear keychain 2.jpg"
         ],
         title: "Bear keychain",
         category: "Crochet",
@@ -78,9 +78,9 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Bunny keychain with heart 1.jpg",
-            "../asset/images/crochet/Bunny keychain with heart 2.jpg",
-            "../asset/images/crochet/Bunny keychain with heart 3.jpg"
+            "./asset/images/crochet/Bunny keychain with heart 1.jpg",
+            "./asset/images/crochet/Bunny keychain with heart 2.jpg",
+            "./asset/images/crochet/Bunny keychain with heart 3.jpg"
         ],
         title: "Bunny keychain with heart",
         category: "Crochet",
@@ -91,8 +91,8 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Red heart keychain 1.jpg",
-            "../asset/images/crochet/Red heart keychain 2.jpg"
+            "./asset/images/crochet/Red heart keychain 1.jpg",
+            "./asset/images/crochet/Red heart keychain 2.jpg"
         ],
         title: "Red heart keychain",
         category: "Crochet",
@@ -103,8 +103,8 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Strawberry keychain 1.jpg",
-            "../asset/images/crochet/Strawberry keychain 2.jpg"
+            "./asset/images/crochet/Strawberry keychain 1.jpg",
+            "./asset/images/crochet/Strawberry keychain 2.jpg"
         ],
         title: "Strawberry keychain",
         category: "Crochet",
@@ -115,8 +115,8 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Smiley daisy pot 1.jpg",
-            "../asset/images/crochet/Smiley daisy pot 2.jpeg"
+            "./asset/images/crochet/Smiley daisy pot 1.jpg",
+            "./asset/images/crochet/Smiley daisy pot 2.jpeg"
         ],
         title: "Smiley daisy pot",
         category: "Crochet",
@@ -127,8 +127,8 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Sunflower claw clip 1(1).jpg",
-            "../asset/images/crochet/Sunflower claw clip 1.jpg"
+            "./asset/images/crochet/Sunflower claw clip 1(1).jpg",
+            "./asset/images/crochet/Sunflower claw clip 1.jpg"
         ],
         title: "Sunflower claw clip",
         category: "Crochet",
@@ -139,8 +139,8 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Sunflower scooty charm 1.jpg",
-            "../asset/images/crochet/Sunflower scooty charm 2.jpg"
+            "./asset/images/crochet/Sunflower scooty charm 1.jpg",
+            "./asset/images/crochet/Sunflower scooty charm 2.jpg"
         ],
         title: "Sunflower scooty charm",
         category: "Crochet",
@@ -151,7 +151,7 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Heart wings scooty charm .jpg"
+            "./asset/images/crochet/Heart wings scooty charm .jpg"
         ],
         title: "Heart wings scooty charm",
         category: "Crochet",
@@ -162,9 +162,9 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Bible cover 1.jpg",
-            "../asset/images/crochet/Bible cover 2.jpg",
-            "../asset/images/crochet/Bible cover 3.jpg"
+            "./asset/images/crochet/Bible cover 1.jpg",
+            "./asset/images/crochet/Bible cover 2.jpg",
+            "./asset/images/crochet/Bible cover 3.jpg"
         ],
         title: "Bible cover",
         category: "Crochet",
@@ -175,9 +175,9 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Claw clip big 1.jpg",
-            "../asset/images/crochet/Claw clip big 2.jpg",
-            "../asset/images/crochet/Claw clip big 3.jpg"
+            "./asset/images/crochet/Claw clip big 1.jpg",
+            "./asset/images/crochet/Claw clip big 2.jpg",
+            "./asset/images/crochet/Claw clip big 3.jpg"
         ],
         title: "Claw clip big",
         category: "Crochet",
@@ -188,7 +188,7 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/lifestyles/Card holder 1.jpg",
+            "./asset/images/lifestyles/Card holder 1.jpg",
         ],
         title: "Card holder",
         category: "Lifestyles",
@@ -199,8 +199,8 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/paintings/Blue theme clock 1.jpeg",
-            "../asset/images/paintings/Blue theme clock 2.jpg"
+            "./asset/images/paintings/Blue theme clock 1.jpeg",
+            "./asset/images/paintings/Blue theme clock 2.jpg"
         ],
         title: "Blue theme clock",
         category: "Paintings",
@@ -211,8 +211,8 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/lifestyles/Multicolour tote bag 1.jpg",
-            "../asset/images/lifestyles/Multicolour tote bag 2.jpg"
+            "./asset/images/lifestyles/Multicolour tote bag 1.jpg",
+            "./asset/images/lifestyles/Multicolour tote bag 2.jpg"
         ],
         title: "Multicolour tote bag",
         category: "Lifestyles",
@@ -223,7 +223,7 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/baby softtoys/Baby duck with Santa hat .jpg"
+            "./asset/images/baby softtoys/Baby duck with Santa hat .jpg"
         ],
         title: "Baby duck with santa hat (medium size)",
         category: "Crochet",
@@ -234,8 +234,8 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Honeybee medium 1.jpg",
-            "../asset/images/crochet/Honeybee medium 2.jpg"
+            "./asset/images/crochet/Honeybee medium 1.jpg",
+            "./asset/images/crochet/Honeybee medium 2.jpg"
         ],
         title: "Honeybee medium size",
         category: "Crochet",
@@ -246,8 +246,8 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/crochet/Honeybee big 1.jpg",
-            "../asset/images/crochet/Honeybee big 2.jpg"
+            "./asset/images/crochet/Honeybee big 1.jpg",
+            "./asset/images/crochet/Honeybee big 2.jpg"
         ],
         title: "Honeybee big size",
         category: "Crochet",
@@ -258,8 +258,8 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/baby softtoys/Bunny hand pick 1.jpg",
-            "../asset/images/baby softtoys/Bunny hand pick 2.jpg"
+            "./asset/images/baby softtoys/Bunny hand pick 1.jpg",
+            "./asset/images/baby softtoys/Bunny hand pick 2.jpg"
         ],
         title: "Baby hand pick toys",
         category: "Baby Softtoys",
@@ -270,8 +270,8 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/baby softtoys/Elephant hand pick 1.jpg",
-            "../asset/images/baby softtoys/Elephant hand pick 2.jpg"
+            "./asset/images/baby softtoys/Elephant hand pick 1.jpg",
+            "./asset/images/baby softtoys/Elephant hand pick 2.jpg"
         ],
         title: "Elephant hand pick toy",
         category: "Baby Softtoys",
@@ -282,7 +282,7 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/baby softtoys/Bunny holding heart plushie.jpg"
+            "./asset/images/baby softtoys/Bunny holding heart plushie.jpg"
         ],
         title: "Bunny holding heart plushie",
         category: "Baby Softtoys",
@@ -293,8 +293,8 @@ const productsData = [
 
     {
         images: [
-            "../asset/images/baby softtoys/Panda 1.jpg",
-            "../asset/images/baby softtoys/Panda 2.jpg"
+            "./asset/images/baby softtoys/Panda 1.jpg",
+            "./asset/images/baby softtoys/Panda 2.jpg"
         ],
         title: "Panda",
         category: "Baby Softtoys",

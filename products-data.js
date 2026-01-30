@@ -181,7 +181,7 @@ const productsData = [
         ],
         title: "Claw clip big",
         category: "Crochet",
-        description: "Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
+        description: "Medium size, made with yarn. Price mentioned is per piece. Long lasting. Please mention your preferred colour in the notes . Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
         price: 200,
         isBestSeller: false
     },
@@ -286,7 +286,7 @@ const productsData = [
         ],
         title: "Bunny holding heart plushie",
         category: "Baby Softtoys",
-        description: "Safe and weightless toy for newborns. Heart colour can be customized (red, baby pink, lavender, yellow, sky blue). For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        description: "Safe and weightless toy for newborns. Heart colour can be customized (red, baby pink, lavender, yellow, sky blue). Please mention your preferred colour in the notes .For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
         price: 950,
         isBestSeller: true
     },

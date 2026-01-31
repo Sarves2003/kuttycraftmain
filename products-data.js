@@ -9,10 +9,10 @@ const productsData = [
             "./asset/images/crochet/Sunflower pot 1.jpg",
             "./asset/images/crochet/Sunflower pot 2.jpg"
         ],
-        title: "Sunflowerpot",
+        title: "Sunflower pot",
         category: "Crochet",
         description: "Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
-        price: 300,
+        price: 1,
         isBestSeller: true
     },
 
@@ -211,8 +211,8 @@ const productsData = [
 
     {
         images: [
-            "./asset/images/lifestyles/Multicolour tote bag 1.jpg",
-            "./asset/images/lifestyles/Multicolour tote bag 2.jpg"
+            "./asset/images/lifestyles/Multicolour tote bag 2.jpg",
+            "./asset/images/lifestyles/Multicolour tote bag 1.jpg"
         ],
         title: "Multicolour tote bag",
         category: "Lifestyles",
@@ -226,7 +226,7 @@ const productsData = [
             "./asset/images/baby softtoys/Baby duck with Santa hat .jpg"
         ],
         title: "Baby duck with santa hat (medium size)",
-        category: "Crochet",
+        category: "Baby Softtoys",
         description: "Medium size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
         price: 350,
         isBestSeller: false
@@ -234,11 +234,11 @@ const productsData = [
 
     {
         images: [
-            "./asset/images/crochet/Honeybee medium 1.jpg",
-            "./asset/images/crochet/Honeybee medium 2.jpg"
+            "./asset/images/baby softtoys/Honeybee medium 1.jpg",
+            "./asset/images/baby softtoys/Honeybee medium 2.jpg"
         ],
         title: "Honeybee medium size",
-        category: "Crochet",
+        category: "Baby Softtoys",
         description: "Medium size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
         price: 300,
         isBestSeller: true
@@ -246,11 +246,11 @@ const productsData = [
 
     {
         images: [
-            "./asset/images/crochet/Honeybee big 1.jpg",
-            "./asset/images/crochet/Honeybee big 2.jpg"
+            "./asset/images/baby softtoys/Honeybee big 1.jpg",
+            "./asset/images/baby softtoys/Honeybee big 2.jpg"
         ],
         title: "Honeybee big size",
-        category: "Crochet",
+        category: "Baby Softtoys",
         description: "Big size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
         price: 500,
         isBestSeller: true
@@ -258,10 +258,10 @@ const productsData = [
 
     {
         images: [
-            "./asset/images/baby softtoys/Bunny hand pick 1.jpg",
-            "./asset/images/baby softtoys/Bunny hand pick 2.jpg"
+            "./asset/images/baby softtoys/Bunny hand pick 2.jpg",
+            "./asset/images/baby softtoys/Bunny hand pick 1.jpg"
         ],
-        title: "Baby hand pick toys",
+        title: "Bunny hand pick toys",
         category: "Baby Softtoys",
         description: "Safe and weightless toys for newborns. Assisting them in picking up toys during their early development. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
         price: 250,
@@ -293,8 +293,8 @@ const productsData = [
 
     {
         images: [
-            "./asset/images/baby softtoys/Panda 1.jpg",
-            "./asset/images/baby softtoys/Panda 2.jpg"
+            "./asset/images/baby softtoys/Panda 2.jpg",
+            "./asset/images/baby softtoys/Panda 1.jpg"
         ],
         title: "Panda",
         category: "Baby Softtoys",

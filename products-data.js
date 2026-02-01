@@ -6,13 +6,25 @@ const productsData = [
     // Crochet
     {
         images: [
+            "./asset/images/crochet/Vel keychain 1.jpeg",
+            "./asset/images/crochet/Vel keychain 2.jpeg",
+            "./asset/images/crochet/Vel keychain 3.jpeg",
+        ],
+        title: "Vel keychain",
+        category: "Crochet",
+        description: "Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
+        price: 80,
+        isBestSeller: true
+    },
+    {
+        images: [
             "./asset/images/crochet/Sunflower pot 1.jpg",
             "./asset/images/crochet/Sunflower pot 2.jpg"
         ],
         title: "Sunflower pot",
         category: "Crochet",
         description: "Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
-        price: 1,
+        price: 300,
         isBestSeller: true
     },
 
@@ -46,7 +58,7 @@ const productsData = [
         ],
         title: "Baby duck keychain",
         category: "Crochet",
-        description: "Sweet and cute for bags and keys. Medium size, made with yarn. Long lasting. Colours may vary depending on phone display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
+        description: "Sweet and cute for bags and keys. Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on phone display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
         price: 280,
         isBestSeller: false
     },
@@ -59,7 +71,7 @@ const productsData = [
         ],
         title: "Evil eye keychain",
         category: "Crochet",
-        description: "Giving a positive vibe for your journey. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
+        description: "Giving a positive vibe for your journey. Price mentioned is per piece. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
         price: 90,
         isBestSeller: true
     },
@@ -71,7 +83,7 @@ const productsData = [
         ],
         title: "Bear keychain",
         category: "Crochet",
-        description: "Cute and unique for your dream vehicle. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
+        description: "Cute and unique for your dream vehicle. Price mentioned is per piece. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
         price: 100,
         isBestSeller: true
     },
@@ -84,7 +96,7 @@ const productsData = [
         ],
         title: "Bunny keychain with heart",
         category: "Crochet",
-        description: "Perfect for Valentine and return gifts. Heart colour can be customized (pink, red, lavender). Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
+        description: "Perfect for Valentine and return gifts. Price mentioned is per piece. Heart colour can be customized (pink, red, lavender). Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
         price: 380,
         isBestSeller: false
     },
@@ -120,7 +132,7 @@ const productsData = [
         ],
         title: "Smiley daisy pot",
         category: "Crochet",
-        description: "Doesn’t fade or wilt. Perfect for return gifts and decor. Medium size, made with yarn. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
+        description: "Doesn't fade or wilt. Perfect for return gifts and decor. Medium size, made with yarn. Price mentioned is per piece. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
         price: 399,
         isBestSeller: true
     },
@@ -132,7 +144,7 @@ const productsData = [
         ],
         title: "Sunflower claw clip",
         category: "Crochet",
-        description: "Doesn’t fade or wilt. Medium size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
+        description: "Doesn't fade or wilt. Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
         price: 150,
         isBestSeller: true
     },
@@ -144,7 +156,7 @@ const productsData = [
         ],
         title: "Sunflower scooty charm",
         category: "Crochet",
-        description: "Doesn’t fade or wilt. Medium size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
+        description: "Doesn't fade or wilt. Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
         price: 150,
         isBestSeller: true
     },
@@ -155,7 +167,7 @@ const productsData = [
         ],
         title: "Heart wings scooty charm",
         category: "Crochet",
-        description: "Doesn’t fade or wilt. Medium size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
+        description: "Doesn't fade or wilt. Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Dispatching time 7–10 days (around India). International orders take 20–25 days for delivery.",
         price: 150,
         isBestSeller: true
     },
@@ -168,7 +180,7 @@ const productsData = [
         ],
         title: "Bible cover",
         category: "Crochet",
-        description: "Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
+        description: "Price mentioned is per piece. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
         price: 400,
         isBestSeller: false
     },
@@ -204,7 +216,7 @@ const productsData = [
         ],
         title: "Blue theme clock",
         category: "Paintings",
-        description: "Dreamy and classy wall clock. Size 8 inch. For customization DM on WhatsApp or Instagram. Dispatching time 10–15 days (around India). International orders take 20–25 days for delivery.",
+        description: "Dreamy and classy wall clock. Price mentioned is per piece. Size 8 inch. For customization DM on WhatsApp or Instagram. Dispatching time 10–15 days (around India). International orders take 20–25 days for delivery.",
         price: 1500,
         isBestSeller: true
     },
@@ -216,7 +228,7 @@ const productsData = [
         ],
         title: "Multicolour tote bag",
         category: "Lifestyles",
-        description: "Big size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        description: "Big size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
         price: 2500,
         isBestSeller: true
     },
@@ -227,7 +239,7 @@ const productsData = [
         ],
         title: "Baby duck with santa hat (medium size)",
         category: "Baby Softtoys",
-        description: "Medium size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        description: "Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
         price: 350,
         isBestSeller: false
     },
@@ -239,7 +251,7 @@ const productsData = [
         ],
         title: "Honeybee medium size",
         category: "Baby Softtoys",
-        description: "Medium size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        description: "Medium size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
         price: 300,
         isBestSeller: true
     },
@@ -251,7 +263,7 @@ const productsData = [
         ],
         title: "Honeybee big size",
         category: "Baby Softtoys",
-        description: "Big size, made with yarn. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        description: "Big size, made with yarn. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
         price: 500,
         isBestSeller: true
     },
@@ -263,7 +275,7 @@ const productsData = [
         ],
         title: "Bunny hand pick toys",
         category: "Baby Softtoys",
-        description: "Safe and weightless toys for newborns. Assisting them in picking up toys during their early development. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        description: "Safe and weightless toys for newborns. Price mentioned is per piece. Assisting them in picking up toys during their early development. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
         price: 250,
         isBestSeller: true
     },
@@ -275,7 +287,7 @@ const productsData = [
         ],
         title: "Elephant hand pick toy",
         category: "Baby Softtoys",
-        description: "Safe and weightless toys for newborns. Assisting them in picking up toys during their early development. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        description: "Safe and weightless toys for newborns. Price mentioned is per piece. Assisting them in picking up toys during their early development. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
         price: 300,
         isBestSeller: true
     },
@@ -286,7 +298,7 @@ const productsData = [
         ],
         title: "Bunny holding heart plushie",
         category: "Baby Softtoys",
-        description: "Safe and weightless toy for newborns. Heart colour can be customized (red, baby pink, lavender, yellow, sky blue). Please mention your preferred colour in the notes .For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        description: "Safe and weightless toy for newborns. Price mentioned is per piece. Heart colour can be customized (red, baby pink, lavender, yellow, sky blue). Please mention your preferred colour in the notes. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
         price: 950,
         isBestSeller: true
     },
@@ -298,7 +310,7 @@ const productsData = [
         ],
         title: "Panda",
         category: "Baby Softtoys",
-        description: "Safe and weightless toy for newborns. Assisting early development. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
+        description: "Safe and weightless toy for newborns. Price mentioned is per piece. Assisting early development. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
         price: 800,
         isBestSeller: true
     }

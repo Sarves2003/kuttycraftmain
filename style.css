@@ -192,9 +192,11 @@ body {
   right: -10%;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle,
-      rgba(255, 154, 118, 0.1) 0%,
-      transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 154, 118, 0.1) 0%,
+    transparent 70%
+  );
   border-radius: var(--radius-full);
   animation: float 6s ease-in-out infinite;
 }
@@ -206,9 +208,11 @@ body {
   left: -5%;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle,
-      rgba(168, 216, 234, 0.15) 0%,
-      transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(168, 216, 234, 0.15) 0%,
+    transparent 70%
+  );
   border-radius: var(--radius-full);
   animation: float 8s ease-in-out infinite reverse;
 }
@@ -333,9 +337,10 @@ body {
 .products-grid {
   display: grid;
   /* grid-template-columns: 1fr; */
-  grid-template-columns: repeat(2,
-      1fr);
-  /* Changed from 1fr to repeat(2, 1fr) */
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); /* Changed from 1fr to repeat(2, 1fr) */
   gap: var(--spacing-lg);
   animation: fadeIn 0.6s ease-out;
 }
@@ -450,7 +455,6 @@ body {
 }
 
 @keyframes bounce {
-
   0%,
   100% {
     transform: translateY(0);
@@ -511,9 +515,11 @@ body {
   left: -10%;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle,
-      rgba(255, 154, 118, 0.05) 0%,
-      transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 154, 118, 0.05) 0%,
+    transparent 70%
+  );
   border-radius: var(--radius-full);
 }
 
@@ -561,10 +567,12 @@ body {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg,
-      transparent,
-      rgba(255, 255, 255, 0.4),
-      transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
   transition: left 0.5s ease;
 }
 
@@ -718,10 +726,12 @@ body {
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg,
-      var(--color-primary),
-      var(--color-secondary),
-      var(--color-accent));
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-secondary),
+    var(--color-accent)
+  );
 }
 
 .footer-content {
@@ -964,9 +974,11 @@ body {
 }
 
 .checkout-header {
-  background: linear-gradient(135deg,
-      var(--color-primary) 0%,
-      var(--color-primary-dark) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--color-primary) 0%,
+    var(--color-primary-dark) 100%
+  );
   color: var(--color-white);
   padding: var(--spacing-xl) var(--spacing-lg);
   text-align: center;
@@ -1210,7 +1222,7 @@ button:disabled {
   margin-bottom: var(--spacing-sm);
 }
 
-.success-content>p {
+.success-content > p {
   font-size: 1rem;
   color: var(--color-text-light);
   margin-bottom: var(--spacing-lg);
@@ -1985,7 +1997,6 @@ button:disabled {
 }
 
 @keyframes float {
-
   0%,
   100% {
     transform: translateY(0);
@@ -2121,58 +2132,45 @@ button:disabled {
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: var(--spacing-xs);
-    gap: 0.25rem;
-    /* Add small gap */
+    gap: 0.25rem; /* Add small gap */
   }
 
   .product-name {
-    font-size: 0.85rem;
-    /* Slightly smaller for better fit */
+    font-size: 0.85rem; /* Slightly smaller for better fit */
     line-height: 1.2;
     flex: 1;
-    min-width: 0;
-    /* Allow text to shrink */
+    min-width: 0; /* Allow text to shrink */
   }
 
   .best-seller-badge {
-    font-size: 0.6rem;
-    /* Smaller badge */
+    font-size: 0.6rem; /* Smaller badge */
     padding: 0.15rem 0.4rem;
     margin-left: 0.25rem;
-    white-space: nowrap;
-    /* Prevent text wrapping */
-    flex-shrink: 0;
-    /* Don't allow badge to shrink */
-    align-self: flex-start;
-    /* Align to top */
+    white-space: nowrap; /* Prevent text wrapping */
+    flex-shrink: 0; /* Don't allow badge to shrink */
+    align-self: flex-start; /* Align to top */
   }
 
   .product-price {
-    font-size: 1rem;
-    /* Adjusted size */
+    font-size: 1rem; /* Adjusted size */
     margin-top: 0.25rem;
   }
 
   .product-info {
-    padding: 0.75rem;
-    /* Reduced padding */
+    padding: 0.75rem; /* Reduced padding */
   }
 
   .product-image {
-    height: 180px;
-    /* Optimized height */
+    height: 180px; /* Optimized height */
   }
 
   /* Reduce gap between products on mobile */
   .products-grid {
-    gap: 0.75rem;
-    /* Reduced gap */
+    gap: 0.75rem; /* Reduced gap */
   }
-
   .intro-title {
     font-size: 1.5rem;
   }
-
   .intro-text {
     font-size: 0.9rem;
   }
@@ -2248,11 +2246,9 @@ button:disabled {
     padding: 6px;
     width: 190px;
   }
-
   .carousel-image {
     width: unset !important;
   }
-
   .modal-title {
     font-size: 1.5rem;
   }

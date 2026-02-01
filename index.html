@@ -223,6 +223,9 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="style-complete.css" />
+
+  <!-- Ummami -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="edd14755-31d8-4ee1-848d-05efe6422be0"></script>
 </head>
 
 <body>
@@ -258,7 +261,8 @@
         <h2 class="intro-title">Welcome to Our Craft Corner</h2>
         <p class="intro-text">
           At Kutty Craft, every piece is lovingly handcrafted with care and
-          creativity. We bring you endless handmade treasures that add warmth and joy to your life. Each creation tells a story of passion,
+          creativity. We bring you endless handmade treasures that add warmth and joy to your life. Each creation tells
+          a story of passion,
           dedication, and the magic of handmade art.
         </p>
       </div>
@@ -630,7 +634,8 @@
         <span>Total:</span>
         <span class="total-amount" id="totalAmount">₹0</span>
       </div>
-      <button class="pay-now-btn" id="payNowBtn">Pay Now</button>
+      <button class="pay-now-btn" id="payNowBtn" onclick="umami.track('button-click', { action: 'pay now' })">Pay
+        Now</button>
     </div>
   </div>
 
@@ -716,7 +721,7 @@
                 </span>
               </span>
             </span>
-          
+
             <span class="summary-amount" id="summaryAmount">₹0</span>
           </div>
 

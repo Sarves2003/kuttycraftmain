@@ -211,7 +211,7 @@ const productsData = [
 
     {
         images: [
-            "./asset/images/paintings/Blue theme clock 1.jpeg",
+            "./asset/images/paintings/Blue theme clock 1.webp",
             "./asset/images/paintings/Blue theme clock 2.jpg"
         ],
         title: "Blue theme clock",
@@ -223,8 +223,8 @@ const productsData = [
 
     {
         images: [
-            "./asset/images/lifestyles/Multicolour tote bag 2.jpg",
-            "./asset/images/lifestyles/Multicolour tote bag 1.jpg"
+            "./asset/images/lifestyles/Multicolour tote bag 2.webp",
+            "./asset/images/lifestyles/Multicolour tote bag 1.webp"
         ],
         title: "Multicolour tote bag",
         category: "Lifestyles",

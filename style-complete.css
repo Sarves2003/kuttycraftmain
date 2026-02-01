@@ -406,6 +406,9 @@
 @media (max-width: 768px) {
     .modal-carousel {
         height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .carousel-btn {

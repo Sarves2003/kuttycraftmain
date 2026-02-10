@@ -89,8 +89,8 @@ const productsData = [
 
     {
         images: [
-            "./asset/images/crochet/red Heart desk buddy 1.jpg",
-            "./asset/images/crochet/red Heart desk buddy 2.jpg"
+            "./asset/images/crochet/red heart desk buddy 1.jpg",
+            "./asset/images/crochet/red heart desk buddy 2.jpg"
         ],
         title: " red Heart desk buddy",
         category: "Crochet",
@@ -278,9 +278,9 @@ const productsData = [
 
     {
         images: [
-            "./asset/images/crochet/head band 1.jpeg",
-            "./asset/images/crochet/head band 2.jpeg",
-            "./asset/images/crochet/head band 3.jpeg"
+            "./asset/images/crochet/Head band 1.jpeg",
+            "./asset/images/crochet/Head band 2.jpeg",
+            "./asset/images/crochet/Head band 3.jpg"
         ],
         title: "head band",
         category: "Crochet",
@@ -561,9 +561,9 @@ const productsData = [
 
     {
         images: [
-            "./asset/images/lifestyles/sunflower pouch.jpg"
+            "./asset/images/lifestyles/Sunflower pouch.jpg"
         ],
-        title: " sunflower pouch",
+        title: "Sunflower pouch",
         category: "Lifestyles",
         description: "hand painted pouch. Price mentioned is per piece. Long lasting. Colours may vary depending on display. For customization DM on WhatsApp or Instagram. Delivered in 7–15 days (around India). International orders take 20–25 days for delivery.",
         price: 150,
@@ -708,11 +708,11 @@ const productsData = [
 
     {
         images: [
-            "./asset/images/baby softtoys/Baby Octopus hand pick 1.jpg",
-            "./asset/images/baby softtoys/Baby Octopus hand pick 2.jpg",
-            "./asset/images/baby softtoys/Baby Octopus hand pick 3.jpg",
-            "./asset/images/baby softtoys/Baby Octopus hand pick 4.jpg",
-            "./asset/images/baby softtoys/Baby Octopus hand pick 5.jpg"
+            "./asset/images/baby softtoys/Baby octopus hand pick 1.jpg",
+            "./asset/images/baby softtoys/Baby octopus hand pick 2.jpg",
+            "./asset/images/baby softtoys/Baby octopus hand pick 3.jpg",
+            "./asset/images/baby softtoys/Baby octopus hand pick 4.jpg",
+            "./asset/images/baby softtoys/Baby octopus hand pick 5.jpg"
         ],
         title: "Baby Octopus hand pick toys",
         category: "Baby Softtoys",

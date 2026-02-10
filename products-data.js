@@ -89,8 +89,8 @@ const productsData = [
 
     {
         images: [
-            "./asset/images/crochet/red heart desk buddy 1.jpg",
-            "./asset/images/crochet/red heart desk buddy 2.jpg"
+            "./asset/images/crochet/Red heart desk buddy 1.jpg",
+            "./asset/images/crochet/Red heart desk buddy 2.jpg"
         ],
         title: " red Heart desk buddy",
         category: "Crochet",

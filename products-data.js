@@ -66,11 +66,11 @@ const productsData = [
     {
         images: [
             "./asset/images/crochet/Sunflower hairtie 1.jpg",
-            "./asset/images/crochet/sunflower hairtie 2.jpg"
+            "./asset/images/crochet/Sunflower hairtie 2.jpg"
         ],
         title: "Sunflower hairtie",
         category: "Crochet",
-        description: "Price mentioned is per piece. Sweet and cute for bags and keys. Medium size, made with yarn. Long lasting. Colours may vary depending on phone display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
+        description: "Price mentioned is per piece. Medium size, made with yarn. Long lasting. Colours may vary depending on phone display. For customization DM on WhatsApp or Instagram. Delivered in 7–10 days (around India). International orders take 20–25 days for delivery.",
         price: 130,
         isBestSeller: false
     },
@@ -78,7 +78,7 @@ const productsData = [
     {
         images: [
             "./asset/images/crochet/Sunflower keychain 1.jpg",
-            "./asset/images/crochet/sunflower keychain 2.jpg"
+            "./asset/images/crochet/Sunflower keychain 2.jpg"
         ],
         title: "Sunflower keychain",
         category: "Crochet",
@@ -229,7 +229,7 @@ const productsData = [
         images: [
             "./asset/images/crochet/Penguin keychain 1.jpg",
             "./asset/images/crochet/Penguin keychain 2.jpg",
-            "./asset/images/crochet/penguin keychain 3.jpg"
+            "./asset/images/crochet/Penguin keychain 3.jpg"
         ],
         title: "Penguin keychain",
         category: "Crochet",
